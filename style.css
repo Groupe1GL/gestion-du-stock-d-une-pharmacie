@@ -1,0 +1,220 @@
+# gestion-du-stock-d-une-pharmacie
+.classname {
+	-moz-box-shadow:inset 0px 1px 0px 0px #66CC33;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #66CC33;
+	box-shadow:inset 0px 1px 0px 0px #66CC33;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #66CC33), color-stop(1, #66CC33) );
+	background:-moz-linear-gradient( center top, #66CC33 5%, #66CC33 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#66CC33', endColorstr='#66CC33');
+	background-color:#66CC33;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #ee1eb5;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:30px;
+	line-height:30px;
+	width:85px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #c70067;
+}
+.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0f0), color-stop(1, #0f0) );
+	background:-moz-linear-gradient( center top, #0f0 5%, #0f0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0f0', endColorstr='#0f0');
+	background-color:#0f0;
+}.classname:active {
+	position:relative;
+	top:1px;
+}
+.header{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 150px;
+	width: 100%;
+	background: #FFF;
+}
+.login{
+	position: absolute;
+	top: 45px;
+	right: 100px;
+	text-align: center;
+}
+.input{
+	margin-top: 5px;
+	height: 25px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 2px #000000;
+	border: 0px;
+	background: #FFFFFF;
+	margin-bottom: 5px;
+}
+.ster{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 40px;
+	width: 100%;
+	background: #339900;
+	text-align: right;
+	color:#FFFFFF;
+}
+.stesr{
+	position: absolute;
+	bottom: -1600px;
+	right: 0px;
+	height: 50px;
+	width: 100%;
+	background: #339900;
+	text-align: center;
+	color: #ABD650;
+	font-weight: ;
+	font-family: arial;
+	font-size: 30px;
+	padding-top: 5px;
+}
+.cat{
+	position: absolute;
+	top: 150px;
+	right: 0px;
+	height: 50px;
+	width: 100%;
+	background: #339900;
+}
+.logo{
+	position: absolute;
+	top: 47px;
+	left: 50px;
+	height: 88px;
+	width: 250px;
+}
+.cas li{
+	display: inline-block;
+}
+.cas li a{
+	text-decoration: none;
+	color: #262626;
+	padding-right: 10px; 
+	font-weight: bold;
+	font-family: arial;
+}
+.caul  li{
+display: inline-block;
+}
+.caul{
+	text-align: center;
+}
+.caul li a{
+	text-decoration: none;
+	color: black;
+	padding-right: 20px; 
+	font-weight: bold;
+	font-family: arial;
+}
+.photo{
+	position: relative;
+	top: 200px;
+	left: 0px;
+	box-shadow: 0px 0px 3px black;
+}
+.nouveaute{
+	position: relative;
+	text-align: center;
+	top: 220px;
+ 	height: 400px;
+ 	width: 100%;
+ 	margin-bottom: 20px;
+}
+.nom{
+	position: relative;
+	font-family: arial;
+	font-size: 40px;
+	color: #fff;
+}
+body{
+	background: #339900;
+}
+.pr{
+ 	display: inline-block;
+}
+
+.produit{
+	position: relative;
+ 	height: 300px;
+ 	width: 230px;
+ 	background: white;
+ 	box-shadow: 0px 0px 3px #A3A3A3;
+ 	display: inline-block;
+ 	float: left;
+ 	margin: 10px;
+ 	border-radius: 2px;
+ 	text-align: center;
+}
+.produit:hover{
+ 	box-shadow: 0px 0px 10px #C2C2C2;
+}
+.pic{
+	height: 220px;
+	width: 200px;
+	margin-left:15px; 
+	margin-bottom: 15px;
+}
+.title,.price,.mar{
+	position: relative;
+	font-family: arial;
+	font-size: 15px;
+	color: #2E2E2E;
+}
+.price{
+	font-size: 25px;
+	float: left;
+	margin-left: 0px;
+	color: #A3D650;
+}
+s{
+	font-family: arial;
+	font-weight: bold;
+}
+.khet{
+	position: absolute;
+	left: 0px;
+	z-index: -5;
+ 	background: #F0463D;
+	height: 20px;
+	width: 100%;
+}
+.khe{
+	position: absolute;
+	left: 0px;
+	z-index: -5;
+ 	background: #ABD650;
+	height: 20px;
+	width: 100%;
+}
+.b{
+	position: relative;
+	top: 200px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+a{
+text-decoration:none;
+color:#FFFFFF;
+}
